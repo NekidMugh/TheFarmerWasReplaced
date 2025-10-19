@@ -14,7 +14,7 @@ while True:
 				upgrade.upgradeSkill()
 				move(East)
 			
-			if(get_water() == 0):
+			if(get_water() <= 1):
 				use_item(Items.Water)
 			#use_item(Items.Fertilizer)
 			#use_item(Items.Weird_Substance)
